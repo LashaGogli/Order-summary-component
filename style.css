@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    height: 900px;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+   
+    
+    
+}
+.path2{
+    
+    max-width: 1440px;
+    width: 100%;
+    height: 437px;
+    
+    
+}
+.mainDiv{
+    width: 450px;
+    height: 697px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    border-radius: 20px;
+    
+
+
+ 
+}
+.zedaDiv{
+    width: 450px;
+    height: 220px;
+    background-color: #382AE1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.qvedaDiv{
+    width: 450px;
+    height: 477px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.insideDiv{
+    width: 354px;
+    height: 98px;
+    background-color: #F7F9FF;
+    border-radius: 11px;
+}
+.button{
+    width: 354px;
+    height: 50px;
+
+
+}
+h1{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Red Hat Display';
+    color: #1F2E55;
+
+}
+h2{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Red Hat Display';
+    color: #717FA6;
+    width: 354px;
+    height: 78px;
+    text-align: center;
+}
+.oval{
+
+    margin-top: 25px;
+    margin-left: 24px;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+}
+.path{
+    position: absolute;
+    top: 470px;
+    left: 85px;
+    color: #717FA6;
+    
+}
+.pataraDiv{
+    max-width: 117.19px;
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    top: 457px;
+    left: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.firstSpan{
+    position: absolute;
+    top: 475px;
+    left: 330px;
+    color: #382AE1;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Red Hat Display';
+    border-bottom: solid #382AE1 1px;
+    
+}
+.pp1{
+    color: #1F2E55;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Red Hat Display';
+
+}
+.pp2{
+    color: #717FA6;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Red Hat Display';
+}
+.button{
+    background-color: #382AE1;
+    border-radius: 11px;
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Red Hat Display';
+}
+.cancel{
+    font-size: 15px;
+    color: #717FA6;
+    font-weight: 900;
+    font-family: 'Red Hat Display';
+}
+
+.firstSpan:hover{
+    color: #766CF1;
+    border-bottom: none;
+}
+.button:hover{
+    background-color: #766CF1;
+}
+.cancel:hover{
+    color: #1F2E55;
+}
+
+@media (max-width:375px){
+
+    .container{
+        height: 709px;
+        
+    }
+
+    
+    .mainDiv{
+        width: 327px;
+        height: 567px;
+ 
+    }
+    .zedaDiv{
+        width: 327px;
+        height: 160px;
+        
+    }
+    .qvedaDiv{
+        width: 327px;
+        height: 407px;
+       
+    }
+    .insideDiv{
+        width: 279px;
+        height: 81px;
+    }
+    .button{
+        width: 279px;
+        height: 50px;
+        font-size: 15px;
+    
+    
+    }
+    h1{
+        font-size: 22px;
+       
+
+    
+    }
+    h2{
+
+        width: 327px;
+        font-size: 15px;
+
+    }
+    .pataraDiv{
+        top: 362px;
+        left: 110px;
+
+    }
+    .path{
+       
+        top: 375px;
+        left: 55px;
+      
+        
+    }
+    .firstSpan{
+
+        top: 378px;
+        left: 230px;
+        font-size: 13px;
+        
+    }
+    .oval{
+
+        margin-top: 17px;
+        margin-left: 16px;
+       
+    }
+    .pp1{
+        font-size: 14px;
+
+    
+    }
+    .pp2{
+        font-size: 14px;
+  
+
+}
+}
+
